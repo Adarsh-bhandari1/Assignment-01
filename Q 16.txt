@@ -1,0 +1,39 @@
+Q16. Two sum
+
+#include<stdio.h>
+void twosum(int [] , int);
+int main()
+{
+    int a[10];
+    printf("Enter the size of an array \n ");
+    int n;
+    scanf("%d",&n);
+    printf("Enter the array elements ");
+    int i,temp;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    
+for(i=0;i<n/2;i++)
+{
+   temp=a[i];
+a[i]= a[n-i-1];
+a[n-i-1]= temp;
+
+}
+
+for(i=0;i<n;i++)
+{
+
+printf("%d",a[i]);
+
+}
+
+return 0; 
+
+}
+
+
+
+

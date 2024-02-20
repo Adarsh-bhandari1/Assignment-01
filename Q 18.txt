@@ -1,0 +1,54 @@
+Q18. WACP to subtract  two array using function 
+
+
+
+#include<stdio.h>
+
+void sub(int[],int[],int
+
+
+int main()
+{
+	int i,ar1[10],ar2[10],sum[10];
+int n;
+printf("Enter the size");
+scanf("%d",&n);
+	printf("Enter first array:-\n");
+	for(i=0;i<=n;i++)
+	{
+			
+		scanf("%d",&a[i]);
+	}
+	printf("Enter second array:-\n");	
+	for(i=0;i<=n;i++)
+	{
+			
+		scanf("%d",&bi]);
+	}
+
+sub(a,b,n);
+
+return 0;
+
+}
+
+
+
+
+void sub(a[],b[],n)
+
+{
+
+int c[10];
+	
+	for(i=0;i<=n;i++)
+	{
+		c[i]=a[i]-b[i];
+	}
+	
+	printf("Subraction  of arrays:-");	
+	for(i=0;i<=n;i++)
+	{
+		printf("%d",c[i]);	
+	}
+		

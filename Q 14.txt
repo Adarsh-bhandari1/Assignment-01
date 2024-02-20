@@ -1,0 +1,49 @@
+Q14. WACP to print the square of a number if it is even else print the cube of that number 
+
+
+#include <stdio.h>
+double even(double num);
+double odd(double num);
+
+int main()
+{
+    int num;
+    double c;
+double ans;
+    
+    /* Input number to find cube from user */
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    
+    if(num%2==0)
+{
+ans=even(n);
+}
+
+else
+{
+
+ans=odd(n);
+
+}
+
+printf("%d",ans);
+    
+    return 0;
+}
+
+/**
+ * Function to find cube of any number
+ */
+double even(double num)
+{
+
+ans=n*n;
+}
+
+double odd(double num)
+{
+   
+   ans = n*n*n;
+    return (ans );
+}
